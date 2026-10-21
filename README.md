@@ -19,7 +19,7 @@ Open [localhost:3000](http://localhost:3000).
 - Resize images proportionally to a maximum of **1080 × 1920** without upscaling.
 - Convert images to compressed base64 data URLs and persist them in localStorage.
 - Automatically remove stories **24 hours after posting**.
-- View stories with automatic playback, progress bars, previous/next controls, and pause/play.
+- View stories with 3-second automatic playback, progress bars, previous/next controls, and pause/play.
 - Navigate with taps, horizontal swipes, or keyboard arrow keys; hold an image to pause.
 - Delete stories with a confirmation step and distinguish viewed from unseen stories.
 - Keep open tabs in sync through the browser storage event.
@@ -28,12 +28,12 @@ Open [localhost:3000](http://localhost:3000).
 
 ## Scripts
 
-| Command | Purpose |
-| --- | --- |
-| `npm run dev` | Start the Next.js development server |
-| `npm run typecheck` | Check TypeScript types |
-| `npm test` | Verify expiry, validation, resizing, and storage behavior |
-| `npm run build` | Build static production assets into `out/` |
+| Command             | Purpose                                                   |
+| ------------------- | --------------------------------------------------------- |
+| `npm run dev`       | Start the Next.js development server                      |
+| `npm run typecheck` | Check TypeScript types                                    |
+| `npm test`          | Verify expiry, validation, resizing, and storage behavior |
+| `npm run build`     | Build static production assets into `out/`                |
 
 ## How it works
 
@@ -80,4 +80,4 @@ npm run build
 
 Project brief: [roadmap.sh Stories project](https://roadmap.sh/projects/stories-feature).
 
-Sample photography: [lake](https://unsplash.com/photos/7H77FWkK_x4), [coffee](https://unsplash.com/photos/TD4DBagg2wE), and nature images served by [Unsplash](https://unsplash.com/). Icons by [Lucide](https://lucide.dev/).
+Sample photography served by Unsplash: [lake](https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1), [coffee](https://images.unsplash.com/photo-1442512595331-e89e73853f31), and [nature](https://images.unsplash.com/photo-1500534623283-312aade485b7). Images are bundled locally. Icons by [Lucide](https://lucide.dev/).
